@@ -21,11 +21,23 @@ or add
 
 to the require section of your `composer.json` file.
 
+* Выполнить миграцию для создания нужной таблицы в базе данных (консоль):
+```
+yii migrate --migrationPath=@reketaka/comments/migrations --interactive=0
+
 
 Usage
 -----
+```php
+<?=\reketaka\comments\widgets\CommentListWidget::widget([
+    'model'=>$item
+])?>
 
-Once the extension is installed, simply use it in your code by  :
+```php
+<?=\reketaka\comments\widgets\CommentFormWidget::widget([
+    'model'=>$item
+])?>
+
 
 ```php
 <?= \reketaka\comments\AutoloadExample::widget(); ?>```
