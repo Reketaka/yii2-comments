@@ -33,11 +33,8 @@ Usage
     'model'=>$item
 ])?>
 
-```php
 <?=\reketaka\comments\widgets\CommentFormWidget::widget([
     'model'=>$item
 ])?>
 
-
-```php
 <?= \reketaka\comments\AutoloadExample::widget(); ?>```
