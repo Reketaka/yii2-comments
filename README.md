@@ -24,7 +24,7 @@ to the require section of your `composer.json` file.
 * Выполнить миграцию для создания нужной таблицы в базе данных (консоль):
 ```
 yii migrate --migrationPath=@reketaka/comments/migrations --interactive=0
-
+```
 
 Usage
 -----
