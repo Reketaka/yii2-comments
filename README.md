@@ -36,5 +36,3 @@ Usage
 <?=\reketaka\comments\widgets\CommentFormWidget::widget([
     'model'=>$item
 ])?>
-
-<?= \reketaka\comments\AutoloadExample::widget(); ?>```
